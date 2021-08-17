@@ -113,6 +113,19 @@ h1 {
 
 .tariff-list {
     display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.text__function {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding-left: 20px;
 }
 
 .tariff__icon {
