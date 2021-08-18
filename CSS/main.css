@@ -131,3 +131,12 @@ li {
 .tariff__icon {
     background-color: #5972B1;
 }
+
+
+/* test */
+
+.text__test {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
