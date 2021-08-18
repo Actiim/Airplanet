@@ -115,16 +115,24 @@ h1 {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    width: 750px;
+    width: 800px;
 }
 
 .text__function {
     text-align: left;
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .function {
-    padding-left: 20px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.tariff__group {
+    font-family: "Roboto", "Bold", sans-serif;
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #262626;
 }
