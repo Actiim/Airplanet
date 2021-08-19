@@ -49,7 +49,6 @@
 
 body {
     font-family: "Roboto", "Bold", sans-serif;
-    ;
 }
 
 .main {
@@ -106,6 +105,9 @@ body {
 
 /* selection-02 */
 
+
+/* tariff */
+
 .main__container-02 {
     margin: 12px 15px;
 }
@@ -113,6 +115,7 @@ body {
 h1 {
     font-size: 49px;
     margin: 0 auto;
+    color: #262424;
 }
 
 .tariff-list {
@@ -121,6 +124,18 @@ h1 {
     justify-content: space-between;
     width: 830px;
     margin: 70px 70px 0px 0px;
+}
+
+.tariff__group {
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #262626;
+}
+
+.list-description {
+    line-height: 25px;
+    font-size: 14px;
+    color: #262424;
 }
 
 .text__function {
@@ -138,18 +153,15 @@ h1 {
     color: #262424;
 }
 
-.tariff__group {
-    font-size: 12px;
-    text-transform: lowercase;
-    color: #262626;
-}
-
-.list-description {
-    line-height: 25px;
-    font-size: 14px;
-    color: #262424;
-}
-
 .price {
     font-size: 49px;
+}
+
+
+/* last news */
+
+.last-news__main-text {
+    margin-top: 60px;
+    font-size: 49px;
+    color: #262424;
 }
