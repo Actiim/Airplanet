@@ -161,6 +161,10 @@ h1 {
     color: #262424;
 }
 
+.main__news-list {
+    padding: 0px;
+}
+
 .news-list {
     list-style-type: none;
     display: flex;
