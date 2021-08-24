@@ -163,9 +163,58 @@ h1 {
 
 .main__news-list {
     padding: 0px;
+    list-style-type: none;
 }
 
 .news-list {
+    display: flex;
+    margin-top: 70px;
+}
+
+.news-list__text {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.date {
+    color: #656464;
+}
+
+.main__news-bonus {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.news-bonus__text {
+    color: #656464;
+}
+
+.selection-menu__list {
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    margin-top: 66px;
+}
+
+.pages {
+    padding-right: 25px;
+    color: #656464;
+    font-size: 14px;
+}
+
+.number__background {
+    color: #FFFFFF;
+    background-color: #5972B1;
+}
+
+.numbers {
+    padding-left: 16px;
+}
+
+.smart-object-1 {
+    padding-right: 16px;
+}
+
+.smart-object-2 {
+    padding-left: 16px;
 }
