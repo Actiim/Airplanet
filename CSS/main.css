@@ -34,6 +34,47 @@
 }
 
 .info__work-time {
+    position: absolute;
+    width: 165px;
+    height: 82px;
+}
+
+.info__popup {
+    display: none;
+    padding: 23px;
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 0px 3px 3px rgb(110, 110, 110);
+    border-radius: 5px;
+}
+
+.text__time-work {
+    display: inline-block;
+    color: #3A5BBF;
+}
+
+.text__time-dinner {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.info__work-time:hover .info__popup {
+    display: block;
+    position: absolute;
+    top: 50px;
+}
+
+.info__work-time .info__popup::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 90%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.text__work-time {
     color: #fff;
     font-family: "Roboto", "Bold", sans-serif;
     font-size: 14px;
@@ -171,6 +212,11 @@ h1 {
     margin-top: 70px;
 }
 
+.news-list__photo {
+    height: 161px;
+    width: 161px;
+}
+
 .news-list__text {
     padding-left: 20px;
     font-size: 18px;
@@ -187,6 +233,7 @@ h1 {
 
 .news-bonus__text {
     color: #656464;
+    line-height: 1.5em;
 }
 
 
@@ -218,8 +265,17 @@ h1 {
     align-items: center;
 }
 
+.link__number {
+    text-decoration: none;
+    color: #262424;
+}
+
 .numbers {
     padding-left: 16px;
+}
+
+.numbers:hover {
+    color: #5972B1;
 }
 
 .smart-object-1 {
@@ -261,8 +317,4 @@ h1 {
     color: #FFFFFF;
     margin-bottom: 8px;
     font-size: 14px;
-}
-
-.footer__logo {
-    display: flex;
 }
