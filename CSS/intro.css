@@ -1,0 +1,12 @@
+body {}
+
+.container__intro-page {
+    background: url(/img/into_main_photo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+}
+
+.photo__intro {}
