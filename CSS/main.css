@@ -1,3 +1,6 @@
+/* intro.html style */
+
+
 /* header style */
 
 .container {
@@ -96,9 +99,6 @@ body {
 }
 
 .main__container {
-    /*нужны ли флексы?*/
-    display: flex;
-    justify-content: space-between;
     margin-top: 45px;
 }
 
@@ -125,17 +125,17 @@ body {
     margin-right: 19px;
 }
 
-.nav__text__01 {
+.nav-index__text-main {
     color: #262424;
     font-weight: bold;
 }
 
-.nav__text__02 {
+.nav-index__text-comments {
     color: #5972B1;
     font-weight: bold;
 }
 
-.nav__text__03 {
+.nav-index__text-team {
     color: #5972B1;
     font-weight: bold;
 }
@@ -319,3 +319,59 @@ h1 {
     margin-bottom: 8px;
     font-size: 14px;
 }
+
+
+/* comments.html style */
+
+.main-comments {
+    display: flex;
+}
+
+.nav-comments__text-main {
+    color: #5972B1;
+    font-weight: bold;
+}
+
+.nav-comments__text-comments {
+    color: #262424;
+    font-weight: bold;
+}
+
+.nav-comments__text-team {
+    color: #5972B1;
+    font-weight: bold;
+}
+
+.container__comments {
+    margin: 45px 0px 0px 75px;
+}
+
+.main-comments__text {
+    margin-top: 28px;
+}
+
+.main-comments__list {
+    margin-top: 51px;
+}
+
+.comments__text-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.text-list__main {
+    display: flex;
+}
+
+.text-list__img {
+    border-radius: 160px;
+}
+
+.text-list__info {}
+
+.text-list__date {}
+
+.text-list__name {}
+
+.text-list__text {}
