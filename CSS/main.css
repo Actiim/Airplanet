@@ -323,7 +323,7 @@ h1 {
 }
 
 .container__comments {
-    margin: 45px 0px 0px 75px;
+    margin: 45px 0px 0px 93px;
 }
 
 .main-comments__link {
@@ -386,4 +386,138 @@ h1 {
     font-family: "Roboto", "Light", sans-serif;
     line-height: 1.5em;
     color: #262424;
+}
+
+.section__comments {
+    margin-top: 60px;
+}
+
+.comments__banner {
+    background: url(/img/CompositeLayer@1X.png);
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__text {
+    width: 635px;
+    height: 78px;
+    margin-bottom: 35px;
+}
+
+.text__paragraphs {
+    font-family: "Roboto", "Light", sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.link__paragraphs {
+    color: #fff;
+}
+
+.section__form-menu {
+    margin-top: 58px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.comments__form-menu {
+    background-color: #f4f4f4;
+    width: 700px;
+    height: 427px;
+}
+
+.form-menu__object {
+    margin: 17px 59px;
+}
+
+.form-menu__main {
+    font-size: 49px;
+    margin: 0 34px 29px 1px;
+}
+
+.form-menu__elements {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-menu__block {
+    display: flex;
+}
+
+.form-menu__name {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.form-menu__main-text {
+    font-size: 14px;
+}
+
+.input__block {
+    width: 269px;
+    height: 45px;
+    margin: 7px 23px 21px 1px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding-left: 9px;
+}
+
+.form-menu__text {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.form-menu__textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea__block {
+    width: 561px;
+    height: 90px;
+    resize: none;
+    border-color: #5972b1;
+    outline: none;
+    font-size: 14px;
+    margin: 10px 0 19px 1px;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.form-menu__radio-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio__block {
+    margin: 9px 5px 3px 2px;
+}
+
+.main__button {
+    width: 154px;
+    height: 45px;
+    background-color: #5972b1;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-family: "Roboto", "Bold", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    letter-spacing: 2.4px;
+}
+
+.send__text {
+    padding-right: 10px;
+    margin-top: 3px;
 }

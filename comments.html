@@ -32,17 +32,17 @@
     <main class="container main-comments">
         <nav class="main__nav main__container">
             <a class="nav__menu" href="/index.html">
-                <div class="nav__icon"><img src="/img/main_icon.svg" alt="" /></div>
+                <div class="nav__icon"><img src="/img/main_icon@1X.png" alt="main_icon" /></div>
                 <span class="nav-comments__text-main">Главная</span></a>
             <a class="nav__menu" href="/comments.html">
-                <div class="nav__icon"><img src="/img/feed_icon.svg" alt="" /></div>
+                <div class="nav__icon"><img src="/img/feed_icon@1X.png" alt="feed_icon" /></div>
                 <span class="nav-comments__text-comments">Отзывы</span></a>
             <a class="nav__menu" href="#">
-                <div class="nav__icon"><img src="/img/team_icon.svg" alt="" /></div>
+                <div class="nav__icon"><img src="/img/team_icon.svg" alt="team_icon" /></div>
                 <span class="nav-comments__text-team">Экипаж</span></a>
         </nav>
 
-        <section class="container__comments">
+        <div class="container__comments">
             <div class="comments__main-comments">
                 <a class="main-comments__link" href="/index.html">Главная</a>
                 <span class="main-comments__comments">/Отзывы</span>
@@ -60,7 +60,7 @@
                         </div>
                     </li>
                     <li class="text-list__main">
-                        <img class="text-list__img" src="/img/alexandr.png" alt="irina">
+                        <img class="text-list__img" src="/img/alexandr.png" alt="alexandr">
                         <div class="text-list__info">
                             <span class="text-list__date">01.02.2016</span>
                             <h3 class="text-list__name">Александр Бельков</h3>
@@ -69,7 +69,7 @@
                         </div>
                     </li>
                     <li class="text-list__main">
-                        <img class="text-list__img" src="/img/igor.png" alt="irina">
+                        <img class="text-list__img" src="/img/igor.png" alt="igor">
                         <div class="text-list__info">
                             <span class="text-list__date">22.12.2015</span>
                             <h3 class="text-list__name">Игорь Николаенко</h3>
@@ -78,7 +78,7 @@
                         </div>
                     </li>
                     <li class="text-list__main">
-                        <img class="text-list__img" src="/img/anastasia.png" alt="irina">
+                        <img class="text-list__img" src="/img/anastasia.png" alt="anastasia">
                         <div class="text-list__info">
                             <span class="text-list__date">14.08.2015</span>
                             <h3 class="text-list__name">Анастасия Порядная</h3>
@@ -116,8 +116,51 @@
                     <a class="link__number" href="#"><img class="smart-object-2" src="/img/Vector Smart Object 2.svg" alt="smart_object_2"></a>
                 </ul>
             </div>
-        </section>
+        </div>
     </main>
+    <section class="section__comments">
+        <div class="comments__banner">
+            <div class="banner__text">
+                <p class="text__paragraphs">Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a class="link__paragraphs" href="#">заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <b>8 (800) 00-392-10</b>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container section__form-menu">
+        <div class="comments__form-menu">
+            <div class="form-menu__object">
+                <h2 class="form-menu__main">Оставить отзыв</h2>
+                <form class="form-menu__elements" action="">
+                    <div class="form-menu__block">
+                        <div class="form-menu__name">
+                            <label class="form-menu__main-text" for="name">Ваше имя</label>
+                            <input class="input__block" type="text" placeholder="Введите имя">
+                        </div>
+                        <div class="form-menu__text">
+                            <label class="form-menu__main-text" for="name">Ссылка на профиль VK</label>
+                            <input class="input__block" type="text" placeholder="vk.com/example">
+                        </div>
+                    </div>
+                    <div class="form-menu__textarea">
+                        <span class="form-menu__main-text">Текст отзыва</span>
+                        <textarea class="textarea__block" name="" id="" cols="30" rows="10" placeholder="Начните печатать..."></textarea>
+                    </div>
+                    <div class="form-menu__radio-button">
+                        <div class="form-menu__radio-text">
+                            <span class="form-menu__main-text">Отображать фото в отзыве?</span>
+                            <div class="form-menu__raido">
+                                <input class="radio__block" type="radio" name="choice">Да
+                                <input class="radio__block" type="radio" name="choice">Нет
+                            </div>
+                        </div>
+                        <div class="form-menu__bitton">
+                            <button class="main__button"><span class="send__text">Отправить</span><img src="/img/vector-smart-object.png" alt="air_logo"></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="container footer__container">
@@ -125,7 +168,7 @@
                 <br /> на курсе «HTML + CSS» в <b>LoftSchool</b>.
                 <br />Автор работы: <b>Прохладов Вадим</b></span>
             <div>
-                <img class="footer__logo" src="/img/logo_header.svg" alt="">
+                <img class="footer__logo" src="/img/logo_header.svg" alt="logo_footer">
             </div>
             <div class="footer__social">
                 <span class="social__text">Наши социальные сети</span>
