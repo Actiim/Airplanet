@@ -565,3 +565,18 @@ h1 {
 
 
 /* team.html style */
+
+.container__team-list {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-list__team-people {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-list__team {
+    margin: 0 auto;
+}
