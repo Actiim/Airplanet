@@ -567,9 +567,7 @@ h1 {
 /* team.html style */
 
 .container__team-list {
-    width: 850px;
     display: flex;
-    justify-content: space-between;
 }
 
 .team-list__team-people {
@@ -577,6 +575,23 @@ h1 {
     flex-direction: column;
 }
 
+.team-list__list-block {
+    display: flex;
+    flex-direction: column;
+}
+
 .team-list__team {
     margin: 0 auto;
+}
+
+.team-list__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+
+.img__team {
+    width: 160px;
+    height: 160px;
 }
