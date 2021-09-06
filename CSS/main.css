@@ -566,6 +566,21 @@ h1 {
 
 /* team.html style */
 
+.nav-team__text-main {
+    color: #5972B1;
+    font-weight: bold;
+}
+
+.nav-team__text-comments {
+    color: #5972B1;
+    font-weight: bold;
+}
+
+.nav-team__text-team {
+    color: #262424;
+    font-weight: bold;
+}
+
 .container__team-list {
     display: flex;
 }
@@ -588,10 +603,16 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 360px;
+    width: 265px;
 }
 
 .img__team {
     width: 160px;
     height: 160px;
+}
+
+.team-list__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7em;
 }
