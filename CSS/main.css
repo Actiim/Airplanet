@@ -255,7 +255,7 @@ h1 {
 }
 
 .numbers {
-    padding-left: 16px;
+    margin-left: 16px;
 }
 
 .numbers:hover {
@@ -593,7 +593,7 @@ h1 {
 .container__team-list {
     display: flex;
     width: 900px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .team-list__team-people {
@@ -603,37 +603,41 @@ h1 {
 
 .team-list__list-block {
     display: flex;
-    flex-direction: column;
 }
 
 .team-list__team-1 {
-    margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 34px;
+    padding-left: 25px;
+    width: 262px;
 }
 
 .team-list__team-2 {
-    margin: 0 auto;
-    padding-top: 75px;
+    padding-top: 42px;
+    padding-left: 23px;
+    width: 265px;
 }
 
 .team-list__team-3 {
-    margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 34px;
+    padding-left: 6px;
+    width: 255px;
 }
 
 .team-list__team-4 {
-    margin: 0 auto;
-    padding-top: 33px;
+    padding-left: 6px;
+    width: 252px;
 }
 
 .team-list__team-5 {
-    margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 34px;
+    padding-left: 0px;
+    width: 258px;
 }
 
 .team-list__team-6 {
-    margin: 0 auto;
-    padding-top: 54px;
+    padding-top: 20px;
+    padding-left: 0px;
+    width: 262px;
 }
 
 .team-list__content {
@@ -668,20 +672,78 @@ h1 {
 }
 
 .main-team__partners {
-    margin: 10px 0px 0px 201px;
+    margin: 10px 0px 99px 201px;
 }
 
 .main-team__heading {
     font-size: 49px;
+    margin: 0 auto;
 }
 
 .partners__icon {
-    display: flex;
-    justify-content: space-around;
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.partners__icon-block {
+    display: flex;
+    justify-content: space-between;
+    width: 746px;
 }
 
 .partners-list__logo {
     list-style-type: none;
     padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list__image-bmp {
+    margin-top: 57px;
+}
+
+.image-bmp {
+    filter: grayscale();
+}
+
+.list__image-oneair {
+    margin-top: 81px;
+}
+
+.image-oneair {
+    filter: grayscale();
+}
+
+.list__image-tetra {
+    margin-top: 40px;
+}
+
+.image-tetra {
+    filter: grayscale();
+}
+
+.list__image-bingair {
+    margin-top: 64px;
+}
+
+.image-bingair {
+    filter: grayscale();
+}
+
+.list__image-siberia {
+    margin-top: 40px;
+}
+
+.image-siberia {
+    filter: grayscale();
+}
+
+.list__image-ural {
+    margin-top: 64px;
+}
+
+.image-ural {
+    filter: grayscale();
 }
