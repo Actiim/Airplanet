@@ -708,6 +708,12 @@ h1 {
     filter: grayscale();
 }
 
+.image-bmp:hover {
+    background: url(/img/bmp-rgb.png);
+    filter: none;
+    cursor: pointer;
+}
+
 .list__image-oneair {
     margin-top: 81px;
 }
@@ -716,12 +722,24 @@ h1 {
     filter: grayscale();
 }
 
+.image-oneair:hover {
+    background: url(/img/one-air-rgb.png);
+    filter: none;
+    cursor: pointer;
+}
+
 .list__image-tetra {
     margin-top: 40px;
 }
 
 .image-tetra {
     filter: grayscale();
+}
+
+.image-tetra:hover {
+    background: url(/img/tetra-rgb.png);
+    filter: none;
+    cursor: pointer;
 }
 
 .list__image-bingair {
