@@ -709,8 +709,7 @@ h1 {
 }
 
 .image-bmp:hover {
-    background: url(/img/bmp-rgb.png);
-    filter: none;
+    filter: grayscale(0%);
     cursor: pointer;
 }
 
@@ -723,8 +722,7 @@ h1 {
 }
 
 .image-oneair:hover {
-    background: url(/img/one-air-rgb.png);
-    filter: none;
+    filter: grayscale(0%);
     cursor: pointer;
 }
 
@@ -737,7 +735,6 @@ h1 {
 }
 
 .image-tetra:hover {
-    background: url(/img/tetra-rgb.png);
     filter: none;
     cursor: pointer;
 }
@@ -750,6 +747,11 @@ h1 {
     filter: grayscale();
 }
 
+.image-bingair:hover {
+    filter: none;
+    cursor: pointer;
+}
+
 .list__image-siberia {
     margin-top: 40px;
 }
@@ -758,10 +760,20 @@ h1 {
     filter: grayscale();
 }
 
+.image-siberia:hover {
+    filter: none;
+    cursor: pointer;
+}
+
 .list__image-ural {
     margin-top: 64px;
 }
 
 .image-ural {
     filter: grayscale();
+}
+
+.image-ural:hover {
+    filter: none;
+    cursor: pointer;
 }
